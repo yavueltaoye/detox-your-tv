@@ -1,0 +1,30 @@
+# Hisense Sala: Hisense U75 hengshan, Google TV / Android 12, build STT2.230310.002, Latin America.
+# Based on examples/hisense-u75-hengshan/debloat.txt, checked against this TV on 2026-10-20.
+#
+# Kept on purpose for this household:
+#   tv.mopa.ginga, com.vt.tv.interactive   local broadcast channels are watched (ISDB-T)
+#   com.vt.eula, com.vt.tv.ota, com.vt.tv.usbota, com.vt.remoteupgrade   OTA updates stay on
+#   Google Assistant, Chromecast built-in, com.vt.tv.dlna, com.vt.udpserver   voice + casting
+#   com.android.providers.contacts / calendar   left on so the Assistant keeps working
+#   com.vt.tv.mediacenter                    USB media player, used by the USB tile
+#
+# Not on this firmware: net.vidaatv.hisense.android.tv, com.vidaa.oemtabcontentprovider
+# NEVER add: com.vt.tv.smartsense*, com.vt.tv.ai_sense, com.vt.tv.aiot* (Android Recovery).
+#
+# Apply:   tools\disable.ps1 -TvHost <ip> profiles\hisense-sala\debloat.txt
+# Undo:    tools\restore.ps1 -TvHost <ip> profiles\hisense-sala\debloat.txt com.google.android.apps.tv.launcherx
+
+com.vt.tv.evservice                  # ACR: tracks what is on screen
+com.vt.hishow                        # FamilyMoment photo app + screensaver
+com.hisense.odinbrowser              # built-in browser
+com.vt.storemode                     # retail demo
+com.vt.tv.b2b                        # hotel / commercial mode
+com.vt.factory                       # factory tools
+com.vt.fte                           # first-time walkthrough
+com.vt.alexa                         # HiAlexa (Google Assistant is the one in use)
+com.vt.tv.protector                  # "DeviceAssistant" cleaner
+com.vt.tv.calmanconnector            # pro calibration connector
+android.autoinstalls.config.google.gtvpai   # silently auto-installs partner apps
+com.google.android.partnersetup             # partner referral tracking
+com.google.android.feedback                 # crash/feedback uploader
+com.android.printspooler

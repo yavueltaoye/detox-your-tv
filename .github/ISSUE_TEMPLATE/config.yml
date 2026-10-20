@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Compatibility guide
+    url: https://github.com/yavueltaoye/detox-your-tv/blob/main/docs/COMPATIBILIDAD.md
+    about: Check first whether your TV runs Android TV or Google TV and which models are tested.
+  - name: Troubleshooting
+    url: https://github.com/yavueltaoye/detox-your-tv/blob/main/docs/TROUBLESHOOTING.md
+    about: Common problems and how to get the TV back.

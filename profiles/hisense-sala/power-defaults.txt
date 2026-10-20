@@ -1,0 +1,5 @@
+settings put global stay_on_while_plugged_in 0
+settings put secure sleep_timeout 1200000
+settings put system screen_off_timeout 600000
+settings put global tv_timer_auto_sleep_key 14400
+settings delete secure attentive_timeout
