@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/logo.webp" alt="Detox Your TV logo" width="220"></p>
+
 # Detox Your TV
 
 **Less bloat. No ads. Just TV.**
@@ -11,7 +13,7 @@ with tested lists for 66 TV models from 25 brands.
 
 Leer en español: [LEEME.md](LEEME.md).
 
-![Before: stock Google TV home with a sponsored banner. After: the Detox Your TV home](docs/stock-vs-new-side.jpg)
+![Before: the stock Google TV home full of sponsored rows. After: the Detox Your TV home](docs/before-after.webp)
 
 ## How it works
 
@@ -44,12 +46,12 @@ coding assistant discover it with [`PROMPT.md`](PROMPT.md) and ask before touchi
 And a TV that stops working against you: no sponsored rows, no analytics phoning home, no apps you
 never asked for.
 
+![Inputs with Live TV first, the Control Center on Settings, and moving an app with the remote](docs/features.webp)
+
 | | |
 |---|---|
-| ![The Inputs popup: HDMI ports with what is connected and Live TV](docs/inputs-menu.jpg) | ![The Clock screensaver: a thin clock over a soft glow](docs/clock-screensaver.png) |
-| *Inputs: HDMI with connection state and Live TV* | *Clock screensaver* |
-| ![Six columns and a six-app dock from a theme](docs/theme-six-columns.jpg) | |
-| *Six columns and a six-app dock, same launcher* | |
+| ![The Clock screensaver: a thin clock over a soft glow](docs/clock-screensaver.png) | ![Six columns and a six-app dock from a theme](docs/theme-six-columns.jpg) |
+| *Clock screensaver* | *Six columns and a six-app dock, same launcher* |
 
 ## Supported TVs
 

@@ -1,8 +1,12 @@
+<p align="center"><img src="docs/logo.webp" alt="Logo de Detox Your TV" width="220"></p>
+
 # Detox Your TV
 
 **Less bloat. No ads. Just TV.**
 
 Tu TV Hisense, sin publicidad y con cara de Apple TV.
+
+![Antes: el inicio de Google TV lleno de publicidad. Después: el inicio de Detox Your TV](docs/before-after.webp)
 
 Detox Your TV está pensado para los **Hisense con Google TV que se venden en Latinoamérica**. Sirve
 también para cualquier Android TV o Google TV: hay listas probadas para 66 modelos de 25 marcas.
@@ -24,6 +28,8 @@ Una limpieza por modelo (listas en `examples/`) y un launcher propio (`com.detox
 - **Sonido sin retraso** por HDMI ARC mientras estás en el inicio.
 - **Modo seguro**: si el launcher se cae 3 veces en 5 minutos, apaga las animaciones solo.
 - Fecha y textos en español, y un perfil completo de limpieza para el Hisense U75 de Latinoamérica.
+
+![Entradas con TV en vivo primero, Centro de control en Ajustes y apps que se mueven con el control](docs/features.webp)
 
 ## ¿Funciona en mi TV?
 
